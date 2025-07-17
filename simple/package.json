@@ -1,0 +1,24 @@
+{
+  "name": "simple-express-server",
+  "version": "1.0.0",
+  "description": "A simple Express.js server with no endpoints",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js",
+    "prod": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
